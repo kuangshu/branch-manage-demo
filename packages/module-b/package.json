@@ -25,5 +25,8 @@
   },
   "bugs": {
     "url": "https://github.com/kuangshu/branch-manage-demo/issues"
+  },
+  "dependencies": {
+    "umi": "^3.3.7"
   }
 }
