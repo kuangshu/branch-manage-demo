@@ -41,5 +41,4 @@
 ## @zj/packages 版本更新策略
 
 - 主 feat 合并到主分支开始提测准备阶段时，确定版本号后使用 `lerna version [premajor | preminor | prepatch ]` 命令手动更新 alpha 版本。
-- 提测阶段到上线前，只会有 feat 和 hotfix 分支上的 fix 提交，所以此阶段发版，只会更新 alpha 的版本号。
-- 上线前，更新
+- 提测阶段到上线前，自动更新发版，只会更新 alpha 的版本号。上线前，使用 graduate 更新版本为稳定版发版即可。
