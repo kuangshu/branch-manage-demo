@@ -5,7 +5,7 @@
     "lerna": "^3.22.1"
   },
   "scripts": {
-    "release": "lerna version --message \"chore(release): publish\" --conventional-commits --no-push",
+    "release": "node scripts/release.js",
     "release:alpha": "lerna version preminor --no-push",
     "release:graduate": "lerna version --conventional-commits --conventional-graduate --no-push --message 'chore(release): publish'",
     "bootstrap-hoist": "lerna bootstrap --hoist",
