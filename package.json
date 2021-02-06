@@ -1,0 +1,19 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "scripts": {
+    "release": "lerna version --message \"chore(release): publish\" --conventional-commits --no-push",
+    "release:alpha": "lerna version premajor --no-push",
+    "release:graduate": "lerna version --conventional-commits --conventional-graduate --no-push --message 'chore(release): publish'",
+    "bootstrap-hoist": "lerna bootstrap --hoist",
+    "bootstrap": "lerna bootstrap",
+    "changed": "lerna changed",
+    "clean": "lerna clean --yes"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
