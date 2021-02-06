@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.1-alpha.1](https://github.com/kuangshu/branch-manage-demo/compare/@ks/module-b@1.4.1-alpha.0...@ks/module-b@1.4.1-alpha.1) (2021-02-06)
+
+
+### Bug Fixes
+
+* something ([dc16d19](https://github.com/kuangshu/branch-manage-demo/commit/dc16d19329d1c9ec943343eb1cd33776c634b59c))
+
+
+
+
+
 # [1.4.0](https://github.com/kuangshu/branch-manage-demo/compare/@ks/module-b@1.3.0...@ks/module-b@1.4.0) (2021-02-06)
 
 
