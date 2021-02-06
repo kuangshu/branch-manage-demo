@@ -11,5 +11,6 @@ const moduleB = require('@ks/module-b');
 // change something
 // keep change
 // keep change
+// keep change
 
 ```
