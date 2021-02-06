@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/kuangshu/branch-manage-demo/compare/@ks/module-a@1.2.0...@ks/module-a@1.3.0) (2021-02-06)
+
+
+### Features
+
+* something feature ([2fd77b6](https://github.com/kuangshu/branch-manage-demo/commit/2fd77b60d86022c0ac7ee03d2824f1283aa14517))
+
+
+
+
+
 # [1.2.0](https://github.com/kuangshu/branch-manage-demo/compare/@ks/module-a@1.2.0-alpha.1...@ks/module-a@1.2.0) (2021-02-06)
 
 
