@@ -1,0 +1,33 @@
+stages:
+  - deploy
+
+npm-publish-master:
+  stage: deploy
+  script:
+    - echo $CI_PROJECT_DIR
+    - rm -rf node_modules > /dev/null 2>&1;
+    # - ln -s /home/gitlab-runner/builds/50bbb029/cache/zj-packages/node_modules node_modules
+    - ./package_build.sh
+  tags:
+    - npm-runner
+  only:
+    - master
+    - web
+
+
+npm-doc-master:
+  stage: deploy
+  script:
+    - echo $CI_PROJECT_DIR
+    - rm -rf node_modules > /dev/null 2>&1
+    - npm run init
+    - npm run build:doc
+    - rm -rf /usr/share/nginx/zj-packages/*
+    - cp -rf dist/* /usr/share/nginx/zj-packages/
+  tags:
+    - test-runner
+  only:
+    - master
+  when: manual
+
+
