@@ -6,7 +6,7 @@
   },
   "scripts": {
     "release": "node scripts/release.js",
-    "release:alpha": "lerna version preminor --no-push",
+    "release:alpha": "lerna version preminor --conventional-commits --no-push --message 'chore(alpha): publish'",
     "release:graduate": "lerna version --conventional-commits --conventional-graduate --no-push --message 'chore(release): publish'",
     "bootstrap-hoist": "lerna bootstrap --hoist",
     "bootstrap": "lerna bootstrap",
