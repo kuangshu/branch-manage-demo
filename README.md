@@ -47,3 +47,4 @@
 - 合并到主分支（prerelease）开始提测时，使用 `lerna version prerelease` 更新 beta 版本，按以上分支管理办法，应删除主 feat 分支，创建对应版本的 bugfix 分支，此时可按天合并到 prerelease 分支发版。
 - 测试完成达到发版要求后，可合并进入 master 分支，并使用 graduate 更新版本为稳定版发版即可。
 - hotfix 的修复，应从主分支创建，并通过 prepatch 建立 alpha 版本，测试完成分支合并进入主分支提升一个小版本。并将该分支合并进入目前的主 feat 分支，之后可以删除分支。
+
