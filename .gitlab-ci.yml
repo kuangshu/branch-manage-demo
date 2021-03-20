@@ -10,10 +10,8 @@ npm-publish-master:
     - ./package_build.sh
   tags:
     - npm-runner
-  only:
-    - master
-    - web
-
+  rules:
+    - if $CI_COMMIT_MESSAGE =~ /^chore\((release|pre\-[a-z]+)\)\:/)
 
 npm-doc-master:
   stage: deploy
@@ -29,5 +27,3 @@ npm-doc-master:
   only:
     - master
   when: manual
-
-
